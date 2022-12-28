@@ -20,6 +20,7 @@
 
 html {
   background-color: #fdfdfd;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -340,4 +341,30 @@ input[type=text]:placeholder {
 .btn-menu a {
   text-decoration: none;
   color: #87a8ab;
+}
+
+
+.featurette-divider{
+  color: #87a8ab;
+}
+
+
+
+
+/* MENU */
+.head-title{
+  margin-bottom: 20px;
+}
+
+.menu-text-title{
+  color: #87a8ab;
+  font-size: 1.5em;
+  margin: 20px 0px 10px 0px;
+}
+.menu-text-title span{
+  color: rgb(250, 144, 144);
+}         
+.menu-text-description{
+  color: #786247;
+  font-size: 1.3em;
 }
