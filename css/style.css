@@ -18,10 +18,8 @@
 }
 
 
-/* BASIC */
-
 html {
-  background-color: #a4dcf8;
+  background-color: #fdfdfd;
 }
 
 body {
@@ -43,7 +41,7 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   margin: 40px 8px 10px 8px;
-  color: #cccccc;
+  color: #87a8ab;
 }
 
 
@@ -312,4 +310,34 @@ input[type=text]:placeholder {
 
 #icon {
   width: 60%;
+}
+
+
+/* ABOUT US */
+.about-text{
+  text-align: center;
+  margin: 40px;
+  padding-bottom: 30px;
+}  
+.about-text h2{
+  font-size:1.7em;
+  color:rgb(53, 53, 53);
+
+}
+.about-text p{
+    font-size:1.2em;
+    color:rgb(70, 70, 70);
+
+}
+
+/* DISH DESCRIPTION  */
+
+.btn-menu {
+  padding: 5px 20px 5px 20px;
+  border: 1px solid #87a8ab;
+}
+
+.btn-menu a {
+  text-decoration: none;
+  color: #87a8ab;
 }
