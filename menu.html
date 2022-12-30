@@ -1,7 +1,5 @@
-
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,
@@ -10,19 +8,18 @@
       Brunch, Breakfast, Lunch, Coffee, Online Ordering,
       Take Out, Delivery, Wine">
     <meta name="author" content="">
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <title>THE HAUKAI RESTAURANT</title>
     <!-- CSS -->
     <link rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <!-- CSS Custom-->
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <!-- header  -->
+    <!----------------------------------------- Header ---------------------------------->
     <header>
       <nav class="navbar-default">
         <div class="container-fluid">
@@ -37,48 +34,33 @@
             <li><a href="signin.html">Sign in</a></li>
             <li><a href="order.html">Order Now</a></li>
           </ul>
+          <!-- Accessibility control -->
+          <div class="accessibility-control">
+            <button type="button"
+              onclick="changeSizeByBtn(15)" name="btn1">-A</button>
+            <button type="button"
+              onclick="changeSizeByBtn(20)" name="btn2"> A </button>
+            <button type="button" onclick="changeSizeByBtn(25)"
+              name="btn3"> A+ </button>
+          </div>
         </div>
       </nav>
     </header>
+    <!--------------------------------------- Header Ends -------------------------------->
 
 
-
-
-
-
-
-
-
-    <!-- header -->
+    <!------------------------------- Header Image --------------------------------------->
     <div id="header">
-      <img src="img/header_1.jpg" alt="Our place">
+      <img src="img/header_2.jpg" alt="Our place">
     </div>
 
 
-
-
-
-
-
-    <!-- page container  -->
-    <div class="container">
-
-
-
+    <!--------------------------------------- Container ---------------------------------->
+    <div id="main-container" class="container">
       <section class="about-text">
         <h2>MENU</h2>
-        <!-- <p>Haukai Restaurant is the experience Te Ao Māori with the use of
-          karakia for
-          blessing food and Māori culture.</p> -->
       </section>
 
-
-
-
-
-
-
-      <!-- START THE FEATURETTES -->
       <hr class="featurette-divider">
 
       <div class="about-text">
@@ -219,26 +201,25 @@
           Toffee, fresh bananas and fresh cream.
         </div>
       </div>
+    </div>
 
+    <hr class="featurette-divider">
+    <!------------------------------------- Container Ends -------------------------------->
+    <!----------------------------------------- Footer ------------------------------------>
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2022 THE HAUKAI RESTAURAN LTD. &middot;
+        1 Island Street, Kerikeri, Bay of Islands &middot; 09 401 4019 
+        &middot; <a href="terms.html">Terms</a></p>
+    </footer>
 
-      <hr class="featurette-divider">
-
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2022 THE HAUKAI RESTAURAN LTD. &middot;
-          1 Island Street, Kerikeri, Bay of Islands &middot; 09 401 4019
-          &middot;
-          <a href="privacy.html">Privacy</a>
-          &middot; <a href="#">Terms</a></p>
-      </footer>
-
-      <!-- jQuery library -->
-      <script
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-      <!-- Latest compiled JavaScript -->
-      <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    </body>
-  </html>
+    <!-- jQuery library -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

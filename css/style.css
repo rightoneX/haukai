@@ -315,19 +315,21 @@ input[type=text]:placeholder {
 
 
 /* ABOUT US */
-.about-text{
+.about-text {
   text-align: center;
   margin: 40px;
   padding-bottom: 30px;
-}  
-.about-text h2{
-  font-size:1.7em;
-  color:rgb(53, 53, 53);
+}
+
+.about-text h2 {
+  font-size: 1.7em;
+  color: rgb(53, 53, 53);
 
 }
-.about-text p{
-    font-size:1.2em;
-    color:rgb(70, 70, 70);
+
+.about-text p {
+  font-size: 1.2em;
+  color: rgb(70, 70, 70);
 
 }
 
@@ -344,7 +346,7 @@ input[type=text]:placeholder {
 }
 
 
-.featurette-divider{
+.featurette-divider {
   color: #87a8ab;
 }
 
@@ -352,19 +354,33 @@ input[type=text]:placeholder {
 
 
 /* MENU */
-.head-title{
+.head-title {
   margin-bottom: 20px;
 }
 
-.menu-text-title{
+.menu-text-title {
   color: #87a8ab;
   font-size: 1.5em;
   margin: 20px 0px 10px 0px;
 }
-.menu-text-title span{
+
+.menu-text-title span {
   color: rgb(250, 144, 144);
-}         
-.menu-text-description{
+}
+
+.menu-text-description {
   color: #786247;
   font-size: 1.3em;
+}
+
+
+.accessibility-control {
+  float: right;
+  margin-top: 10px;
+}
+
+@media (max-width:450px) {
+  .accessibility-control {
+    display: none;
+  }
 }
