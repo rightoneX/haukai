@@ -31,9 +31,10 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="menu.html">Menu</a></li>
                         <li class="active"><a href="reservations.html">Reservations</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="hours.html">Hours & Location</a></li>
                         <li><a href="signin.html">Sign in</a></li>
                         <li><a href="order.html">Order Now</a></li>
+                        <li><a href="about.html">About</a></li>
                     </ul>
                     <!-- Accessibility control -->
                     <div class="accessibility-control">
@@ -61,27 +62,80 @@
             <!-- <section class="about-text">
                 <h2></h2>
             </section> -->
-
             <div class="wrapper fadeInDown">
                 <div id="formContent">
                     <div class="fadeIn first">
-                        <!-- <img src="/img/logo.png" id="icon"
-                            alt="Company Logo" /> -->
-                            <h2>Reservation Form</h2>
+                        <h2>Contact Us About Reservation Inquiry</h2>
                     </div>
 
                     <!-- Reservation Form -->
                     <form>
-                        <input type="text" id="login" class="fadeIn second"
-                            name="login"
-                            placeholder="login">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control"
+                                name="name"
+                                placeholder="name">
+                        </div>
 
-                        <input type="text" id="password" class="fadeIn third"
-                            name="login"
-                            placeholder="password">
+                        <div class="form-group">
+                            <input type="text" id="last-name"
+                                class="form-control"
+                                name="last-name"
+                                placeholder="last name">
+                        </div>
 
-                        <input type="submit" class="fadeIn fourth"
-                            value="Sign-in">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="email" id="email" class="
+                                    form-control"
+                                    name="email"
+                                    placeholder="email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="phone" id="phone-number"
+                                    class="form-control"
+                                    name="phone-number"
+                                    placeholder="phone number">
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-8">
+                            <label for="start-time">Date</label>
+                            <input type="date" id="even-date"
+                                class="form-control"
+                                name="event-date"
+                                placeholder="event date">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="start-time">Start Time</label>
+                                <input type="time" id="start-time"
+                                    class="form-control"
+                                    name="start-time"
+                                    placeholder="start time">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="start-time">End Time</label>
+                                <input type="time" id="end-time"
+                                    class="form-control"
+                                    name="end-time"
+                                    placeholder="end time">
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-12">                            
+                            <label for="start-time">Additional Information</label>
+                            <textarea type="textarea" id="additionl"
+                                class="form-control"
+                                name="additional"
+                                placeholder="additional information">
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+
+                            <input type="submit" class="fadeIn fourth"
+                                value="Sign-in">
+                        </div>
                     </form>
 
                     <!-- Remind Password -->
@@ -90,33 +144,6 @@
                     </div> -->
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
         <!------------------------------------- Container Ends -------------------------------->
         <!----------------------------------------- Footer ------------------------------------>
